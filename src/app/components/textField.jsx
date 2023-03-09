@@ -24,6 +24,7 @@ function TextField({ label, type, name, value, onChange, error }) {
                     onChange={onChange}
                     className={getInputClasses()}
                 />
+
                 {type === "password" && (
                     <button
                         className="btn btn-outline-secondary"
